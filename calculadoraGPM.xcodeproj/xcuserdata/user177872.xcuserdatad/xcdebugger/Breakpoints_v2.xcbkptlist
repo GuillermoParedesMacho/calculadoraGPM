@@ -36,5 +36,225 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6ADE301F-5759-4B5D-B92B-56B83D43D823"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculadoraGPM/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8092AE15-2E46-495D-B1DE-D0849BA0A037"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculadoraGPM/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "8092AE15-2E46-495D-B1DE-D0849BA0A037 - 146aaf4a3f3debdc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculadoraGPM.ViewController.inNumsArray.getter : Swift.Array&lt;Swift.Float&gt;"
+                  moduleName = "calculadoraGPM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user177872/Documents/Guillermo%20Paredes%20Macho/Trabajos%20IOS/calculadoraGPM-master/calculadoraGPM/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "8092AE15-2E46-495D-B1DE-D0849BA0A037 - 262c345b927fcbe8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculadoraGPM.ViewController.inNumsArray.setter : Swift.Array&lt;Swift.Float&gt;"
+                  moduleName = "calculadoraGPM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user177872/Documents/Guillermo%20Paredes%20Macho/Trabajos%20IOS/calculadoraGPM-master/calculadoraGPM/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "8092AE15-2E46-495D-B1DE-D0849BA0A037 - 4ff5d1be6bf80427"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculadoraGPM.ViewController.inNumsArray.modify : Swift.Array&lt;Swift.Float&gt;"
+                  moduleName = "calculadoraGPM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user177872/Documents/Guillermo%20Paredes%20Macho/Trabajos%20IOS/calculadoraGPM-master/calculadoraGPM/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "8092AE15-2E46-495D-B1DE-D0849BA0A037 - e3eee9849dd41a0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculadoraGPM.ViewController.inNumsArray.modify : Swift.Array&lt;Swift.Float&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "calculadoraGPM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user177872/Documents/Guillermo%20Paredes%20Macho/Trabajos%20IOS/calculadoraGPM-master/calculadoraGPM/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "8092AE15-2E46-495D-B1DE-D0849BA0A037 - 928c9a5f75b6de86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculadoraGPM.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; calculadoraGPM.ViewController"
+                  moduleName = "calculadoraGPM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user177872/Documents/Guillermo%20Paredes%20Macho/Trabajos%20IOS/calculadoraGPM-master/calculadoraGPM/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "382">
+               </Location>
+               <Location
+                  uuid = "8092AE15-2E46-495D-B1DE-D0849BA0A037 - 7f6a60bbf9e8e8da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculadoraGPM.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;calculadoraGPM.ViewController&gt;"
+                  moduleName = "calculadoraGPM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user177872/Documents/Guillermo%20Paredes%20Macho/Trabajos%20IOS/calculadoraGPM-master/calculadoraGPM/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "323">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23767310-73E0-4DF2-A0EA-79FA6F367FBB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculadoraGPM/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "numProcess(res:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2C69A03-4313-44C0-88BE-82307622CD95"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculadoraGPM/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "numProcess(res:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "753B0522-3F7F-40C3-B93C-FA41CD952A8C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculadoraGPM/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "numProcess(res:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7DA87AC9-AB07-4746-AF46-92B72235DB40"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculadoraGPM/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "numProcess(res:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D611CC9B-0903-4C16-9977-5F87CBA18B04"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculadoraGPM/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "numProcess(res:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "305CBAFF-9412-486B-A8E7-3F495182114B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculadoraGPM/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "numProcess(res:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

@@ -68,6 +68,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <size key="titleShadowOffset" width="0.0" height="4"/>
                                 <state key="normal" title="="/>
+                                <connections>
+                                    <action selector="touchedWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="bfm-Yc-6B1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="4" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qqa-C7-kCZ">
                                 <rect key="frame" x="43" y="299" width="58" height="58"/>
@@ -142,6 +145,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <size key="titleShadowOffset" width="0.0" height="4"/>
                                 <state key="normal" title="*"/>
+                                <connections>
+                                    <action selector="touchedWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="7F8-ZI-8pM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="-" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLv-Zk-Kb1">
                                 <rect key="frame" x="276" y="299" width="95" height="58"/>
@@ -150,6 +156,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <size key="titleShadowOffset" width="0.0" height="4"/>
                                 <state key="normal" title="-"/>
+                                <connections>
+                                    <action selector="touchedWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="wTR-pV-vqh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="+" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLC-yp-EHT">
                                 <rect key="frame" x="276" y="215" width="95" height="58"/>
@@ -158,8 +167,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <size key="titleShadowOffset" width="0.0" height="4"/>
                                 <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="touchedWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="StY-CJ-ktq"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ad8-iv-sJd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ad8-iv-sJd">
                                 <rect key="frame" x="43" y="103" width="328" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
@@ -174,6 +186,20 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <size key="titleShadowOffset" width="0.0" height="4"/>
                                 <state key="normal" title="/"/>
+                                <connections>
+                                    <action selector="touchedWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="PXV-OM-O1b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="rest" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNN-c9-xsB">
+                                <rect key="frame" x="276" y="518" width="95" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <size key="titleShadowOffset" width="0.0" height="4"/>
+                                <state key="normal" title="res"/>
+                                <connections>
+                                    <action selector="touchedWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="swW-O9-RW0"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
