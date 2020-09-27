@@ -25,6 +25,7 @@ class ViewController: UIViewController,CalculadoraProtocol {
             addOperador(opr: button);
             break;
         case "=":
+            operarTodo();
             break;
         default:
             inNumsArray.append((button as NSString).floatValue);
@@ -57,8 +58,50 @@ class ViewController: UIViewController,CalculadoraProtocol {
     }
     
     //num1 opr1 num2 = res1 // res1 opr2 num3 = res2 ... // resx oprx+1 numin = res final
-    func operar (){
+    func operarTodo (){
+        var res:Float = 0;
+        if(operadArray.count > 0){
+            viewUpdate();
+            numArray.append(numProcess(res: true));
+            res = operacion(num1: numArray[0], num2: numArray[1], opr: operadArray[0]);
+            var y = 1;
+            while (y < operadArray.count){
+                res = operacion(num1: res, num2: numArray[y+1], opr: operadArray[y]);
+                y = y+1;	
+            }
+            let text = pantallaTw.text?.description;
+            pantallaTw.text = text! + " = " + res.description;
+        }
         
+        numArray = [Float] ();
+        inNumsArray = [Float] ();
+        operadArray = [String] ();
+    }
+    
+    func operacion (num1: Float, num2: Float, opr: String) -> Float{
+        var resultado:Float = 0;
+        
+        switch opr {
+        case "+":
+            resultado = suma(num1: num1, num2: num2);
+            break;
+        case "-":
+            resultado = resta(num1: num1, num2: num2);
+            break;
+        case "*":
+            resultado = multiplicacion(num1: num1, num2: num2);
+            break;
+        case "/":
+            resultado = division(num1: num1, num2: num2);
+            break;
+        case "%":
+            resultado = modulo(num1: num1, num2: num2);
+            break;
+        default:
+            break;
+        }
+        
+        return resultado;
     }
     
     //procesar el nuevo numero que se encuentra separado een numeros diferentes
@@ -99,24 +142,24 @@ class ViewController: UIViewController,CalculadoraProtocol {
         pantallaTw.text = text;
     }
     
-    func suma(num1: Int, num2: Int)  -> Int {
+    func suma(num1: Float, num2: Float)  -> Float {
         return num1 + num2;
     }
     
-    func resta(num1: Int, num2: Int) -> Int {
+    func resta(num1: Float, num2: Float) -> Float {
         return num1 - num2;
     }
     
-    func division(num1: Int, num2: Int) -> Int {
+    func division(num1: Float, num2: Float) -> Float {
         return num1 / num2;
     }
     
-    func multiplicacion(num1: Int, num2: Int) -> Int {
-        return num1 / num2;
+    func multiplicacion(num1: Float, num2: Float) -> Float {
+        return num1 * num2;
     }
     
-    func modulo(num1: Int, num2: Int) -> Int {
-        return num1 % num2;
+    func modulo(num1: Float, num2: Float) -> Float {
+        return num1.truncatingRemainder(dividingBy: num2);
     }
 
     override func viewDidLoad() {
@@ -126,9 +169,9 @@ class ViewController: UIViewController,CalculadoraProtocol {
 }
 
 protocol CalculadoraProtocol {
-    func suma(num1: Int, num2: Int) -> Int
-    func resta(num1: Int, num2: Int) -> Int
-    func division(num1: Int, num2: Int) -> Int
-    func multiplicacion(num1: Int, num2: Int) -> Int
-    func modulo(num1: Int, num2: Int) -> Int
+    func suma(num1: Float, num2: Float) -> Float
+    func resta(num1: Float, num2: Float) -> Float
+    func division(num1: Float, num2: Float) -> Float
+    func multiplicacion(num1: Float, num2: Float) -> Float
+    func modulo(num1: Float, num2: Float) -> Float
 }
