@@ -57,7 +57,7 @@ class ViewController: UIViewController,CalculadoraProtocol {
         viewUpdate();
     }
     
-    //num1 opr1 num2 = res1 // res1 opr2 num3 = res2 .. // resx oprx+1 numin = res final
+    //num1 opr1 num2 = res1 // res1 opr2 num3 = res2 ... // resx oprx+1 numin = res final
     func operarTodo (){
         var res:Float = 0;
         if(operadArray.count > 0){
