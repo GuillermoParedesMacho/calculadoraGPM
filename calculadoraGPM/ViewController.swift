@@ -104,7 +104,7 @@ class ViewController: UIViewController,CalculadoraProtocol {
         return resultado;
     }
     
-    //procesar el nuevo numero que se encuentra separado een numeros diferentes
+    //procesar el nuevo numero que se encuentra separado en numeros diferentes
     //nums:1,2,3,4 -> num = 1*1000+2*100+3*10+4*1
     func numProcess(res:Bool) -> Float{
         var newNum: Float = 0;
